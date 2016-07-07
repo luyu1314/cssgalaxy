@@ -1,0 +1,249 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+	}
+html {
+	height: 100%; 
+	margin: 0px;
+	padding: 0px; 
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+body {
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	background:url(img/bg.png);
+}
+#content {
+	width: 915px;
+	height: 100%;
+	margin: 0px auto;
+	padding: 0px; 
+	
+}
+#left{
+	width: 310px;
+	float: left;
+}
+#left_content {
+	padding-bottom: 10px;
+	background-image:url(img/ribbon_bg.png);
+	background-repeat: repeat-y;
+}
+
+#logo {
+	width: 189px;
+	height: 189px;
+	margin: 0px auto; 
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-image:url(img/logo.png);
+    background-repeat: no-repeat;
+	background-position: top;
+}
+.header {
+	width: 348px; 
+	height: 60px; 
+	margin-left: -45px;
+	text-align: center;
+	color:#fff;
+	line-height: 58px;
+	font-size: 20px;
+	background:url(img/header.png);
+}
+.twitter {
+	width: 64px;
+	height: 64px; 
+	position:relative;
+	left:120px;
+	display:inline-block;
+	background-image:url(img/3Dtwitter.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.li li{
+	position:relative;
+	left:15px;
+	list-style-type:none;
+	}
+.li a:link,a:visited{
+	width: 110px; 
+	height: 34px;
+	color:#ada06e;
+	border-bottom:2px dashed #ada06e;
+	line-height: 34px;
+	padding: 0px;
+	text-decoration:none;
+	}
+.left_img{
+	position:relative;
+	left:15px;
+	}
+
+.qq{
+	position:relative;
+	left:15px;
+	}
+.left_text{
+	position:relative;
+	left:15px;
+	}
+.left_text{
+	width:290px;
+	height:115px;
+	color:#ada06e;
+	font-size:12px;
+	}
+
+#left_footer {
+	height: 120px;
+	background-image:url(img/ribbon_footer.png);
+	background-repeat: no-repeat;
+}
+
+#right{
+	float:right;
+	width: 600px;
+}
+
+#menu {
+	
+	width: 590px;
+	padding-top: 10px;
+	padding-bottom: 20px; 
+	margin-right: auto;
+	margin-left: auto;
+	background-image:url(img/filter-detail.png);
+    background-repeat: no-repeat;
+	background-position:bottom;
+}
+#menu ul {
+	margin: 0px auto;
+	padding: 0px;
+	width: 442px;
+	
+}
+#menu li {
+	margin: 0px;
+	padding: 0px;
+	height: 30px;
+	float: left;
+	list-style-type: none;
+}
+#menu li a {
+	width: 110px; 
+	height: 34px;
+	text-align: center;
+	color:#fff;; 
+	line-height: 34px;
+    font-size: 13px;
+	text-decoration: none;
+	float: left;
+	display: block;
+	background-image:url(img/menu-middle-off.png);
+	background-repeat: no-repeat;
+    background-color: transparent;
+}
+#menu li a:hover{
+	background:#378485;
+	}
+#ads {
+	width:595px;
+	height:90px;
+	margin:30px  auto ;
+	padding:3px;
+	background-color:#303030;
+}
+#ads img{
+	padding:5px ;
+	margin:3px;
+	border: 1px dashed #ada06e;
+	}
+.sponsor {
+	 width: 87px; 
+	 height: 84px;
+	 position:relative;
+	 left:510px;
+	 top:-100px;
+	 background-image:url(img/sponsor.png);
+}
+#list {
+	width:650px;
+	position:relative;
+	top:-30px;
+	margin: 0px auto;
+	padding: 0px;
+	
+	}
+#list li{
+	width: 190px; 
+	height:200px;
+	margin:5px;
+    float:left;
+	list-style-type: none;
+	padding-bottom: 5px;
+	background-image:url(img/bg_thumb.png);
+	background-repeat:repeat;
+	border: 1px dashed  #ada06e;
+}
+#list li img{
+	margin:5px;
+	padding:5px;
+	
+	}
+	
+h2 { 
+    margin: 0px;
+	padding: 1px 2px 1px 6px;
+	color:#2ea3a5;
+	font-size: 9px;
+}
+h1 a {
+	margin: 0px;
+	position:relative;
+	margin: 0px; 
+	padding: 1px 2px 1px 6px; 
+	color:#ada06e;
+	font-size: 13px;
+	text-decoration: none;
+}
+.right_footer{
+	width: 600px;
+	height: 40px;
+	position: relative;
+	top: 870px;
+	background-image:url(img/bg_thumb.png);
+	border: 1px dashed  #ada06e;
+}
+	
+.right_footer p{
+	position: relative;
+	bottom:860px;
+	text-align:center;
+	color: #ada06e;
+	font-size:14px;
+	}
+
+.love_1 {
+	width: 50px;
+	height: 50px;
+	position:relative;
+	left:535px;
+	top:-68px;
+	background-image:url(img/love.png);
+	background-repeat: no-repeat;
+}
+.love_2 {
+	width: 50px;
+	height: 50px;
+	position:relative;
+	left:330px;
+	bottom:-535px;
+	background-image:url(img/love.png);
+	background-repeat: no-repeat;
+}
